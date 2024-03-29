@@ -1,4 +1,4 @@
-# # leetcode problem no. 1985(medium )
+# leetcode problem no. 1985(medium )
 
 import heapq
 from heapq import heapify
@@ -10,7 +10,6 @@ def kthLargestNumber(nums, k):
         nums.pop()
     
     return nums.pop()
-
 
 
 
