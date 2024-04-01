@@ -1,5 +1,4 @@
-# leetcode problem no. 283( )
-
+# leetcode problem no. 283(Easy )
 
 def moveZeroes(nums):
     l = len(nums)

@@ -1,4 +1,4 @@
-# leetcode problem no. 215(medium )
+# leetcode problem no. 215(Medium )
 
 import heapq
 from heapq import heapify

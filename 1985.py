@@ -1,4 +1,4 @@
-# leetcode problem no. 1985(medium )
+# leetcode problem no. 1985(Medium )
 
 import heapq
 from heapq import heapify
