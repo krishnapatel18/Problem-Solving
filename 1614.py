@@ -13,5 +13,4 @@ class Solution:
                 openBrackets -= 1
             
             ans = max(ans, openBrackets)
-        
         return ans
