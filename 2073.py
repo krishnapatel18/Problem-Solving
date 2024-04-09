@@ -1,5 +1,5 @@
 # leetcode problem no. 2073(Easy )
-# One Pass technique 
+# Using One Pass Technique 
 
 class Solution:
     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:
