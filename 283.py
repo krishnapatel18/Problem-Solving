@@ -1,5 +1,6 @@
 # leetcode problem no. 283(Easy )
 
+# Brute Force approach 
 def moveZeroes(nums):
     l = len(nums)
     count = 0
@@ -19,3 +20,12 @@ def moveZeroes(nums):
 
 nums = [0, 1, 0, 3, 12]
 print(moveZeroes(nums))
+
+
+# An optimized approach  
+def moveZeroes(nums):
+        i = 0
+        for j in range(len(nums)):
+            if nums[j] != 0:
+                nums[i], nums[j] = nums[j], nums[i]
+                i += 1 
